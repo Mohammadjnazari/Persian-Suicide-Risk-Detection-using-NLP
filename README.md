@@ -15,9 +15,7 @@ experiments.
         --text-col Text --class-col Class --pos-label 0
 
 Fixed seed 42. Steps (selectable via --steps): [1] stratified 10-fold CV for all
-models incl. keyword baseline; [2] keyword-masking ablation (86 query terms +
-Hazm-lemmatised variants, test folds only — full implementation in the script, so
-masking completeness is independently assessable); [3] class-weighting sensitivity;
+models incl. keyword baseline; [2] keyword-masking ablation (the 44 suicidal-ideation query terms + Hazm-lemmatised variants, applied to test folds only; the 42 neutral control terms are not independently added to the masking vocabulary — full implementation in the script, so masking completeness is independently assessable); [3] class-weighting sensitivity;
 [4] calibration (Brier, Cox slope/intercept); [5] negative-class keyword composition;
 [6] top-20 features per model; [7] error-example extraction (kept private; not for
 redistribution).
