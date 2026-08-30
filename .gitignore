@@ -1,0 +1,15 @@
+*.csv
+*.npz
+*.npy
+*.joblib
+.venv/
+.test-venv/
+__pycache__/
+*.pyc
+.DS_Store
+error_examples_PRIVATE.txt
+results.txt
+calibration_curve*.png
+calibration_curve*.pdf
+calibration_curve*.csv
+UPLOAD_INSTRUCTIONS_FA.txt
